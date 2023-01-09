@@ -1,0 +1,9 @@
+.sort-table {
+  background-color: #fff;
+  padding: 10px;
+}
+.sort-table-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}

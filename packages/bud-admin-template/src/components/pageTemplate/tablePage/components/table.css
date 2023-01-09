@@ -1,0 +1,77 @@
+.wrapper {
+  position: relative;
+}
+.wrapper :deep(.ant-table-pagination.ant-pagination) {
+  margin-right: 108px;
+}
+.wrapper .moreBtn {
+  position: absolute;
+  bottom: 38px;
+  right: 150px;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.table-header .table-header-right {
+  display: flex;
+}
+.batch-operation {
+  background-color: #fff;
+}
+.batch-operation div {
+  padding: 5px 0 5px 25px;
+  transition: 0.3s ease;
+}
+.batch-operation div:hover {
+  background-color: #f5f5f5;
+}
+.column-check-group {
+  border: 1px #f5f5f5 solid;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px 20px;
+}
+.column-check-group-item {
+  min-width: 200px;
+}
+.column-check-group-item div {
+  margin: 5px 0;
+}
+.pagination-right {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-left: 22px;
+}
+.search-section {
+  min-height: 80px;
+  background-color: #fff;
+  padding-left: 22px;
+  padding-top: 12px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title-section h1 {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #435160;
+  line-height: 36px;
+  font-size: 24px;
+  font-family: PingFang SC-Semibold, PingFang SC;
+}
+.content-section {
+  background-color: #fff;
+  padding: 22px;
+}

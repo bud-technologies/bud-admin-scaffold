@@ -1,0 +1,195 @@
+/* layout */
+.ant-layout-sider {
+  min-width: 260px !important;
+  background-color: #fff !important;
+}
+.ant-menu-sub.ant-menu-inline {
+  background-color: #fff !important;
+}
+.ant-menu-title-content {
+  font-family: PingFang SC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #435160;
+  font-size: 14px !important;
+}
+
+/* selector */
+.ant-select-selector {
+  border-radius: 4px !important;
+  /* height: 32px !important; */
+  border: 1px solid #e7e7e7 !important;
+}
+
+.ant-select-selection-overflow-item .ant-select-selection-item {
+  background: #f8f7ff !important;
+  min-width: 67px;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 32px !important; */
+}
+
+/* input */
+body
+  .ant-form-item-has-error
+  :not(.ant-input-affix-wrapper-disabled):not(
+    .ant-input-affix-wrapper-borderless
+  ).ant-input-affix-wrapper {
+  border-color: #e7e7e7;
+  border-radius: 4px !important;
+  border: 1px solid #e7e7e7;
+}
+/* .ant-input {
+    border-radius: 4px !important;
+    border: 1px solid #e7e7e7 !important;
+} */
+
+/* modal */
+.ant-modal-close-icon svg {
+  width: 18px;
+  height: 18px;
+  color: rgb(0, 0, 0) !important;
+}
+.ant-modal-content {
+  border-radius: 6px !important;
+}
+.ant-modal-header {
+  border-bottom: 0 !important;
+}
+.ant-modal-body {
+  padding-right: 71px !important;
+  padding-left: 60px !important;
+}
+.ant-modal-footer {
+  border-top: 0 !important;
+  padding-right: 71px !important;
+  padding-bottom: 42px !important;
+}
+
+/* button */
+.ant-btn {
+  border-radius: 4px !important;
+  border: 1px solid #e7e7e7 !important;
+  font-weight: 500 !important;
+}
+/* .ant-btn-normal:hover {
+  background-color: #543feb !important;
+  border: 1px solid #543feb !important;
+  color: #fff !important;
+}
+.ant-btn-normal:active {
+  background-color: #543feb !important;
+  border: 1px solid #543feb !important;
+  color: #fff !important;
+} */
+/* .ant-btn-primary:hover {
+  background-color: #543feb !important;
+  border: 1px solid #543feb !important;
+} */
+.ant-btn-text {
+  border-color: transparent !important;
+}
+.ant-btn-primary {
+  min-width: 100px;
+  height: 32px;
+}
+
+.ant-modal-cancel-btn {
+  width: 100px;
+  height: 32px;
+  /* background-color: #f8f7ff !important; */
+  /* border: 0px !important; */
+  /* color: #6c57ff !important; */
+}
+
+.ant-btn-dangerous[disabled] {
+  background-color: #ffffff !important;
+}
+/* table */
+.ant-table-thead > tr > th {
+  background-color: #f8f7ff !important;
+}
+.ant-table-cell::before {
+  opacity: 0;
+}
+
+.ant-select-tree
+  .ant-select-tree-treenode-disabled
+  .ant-select-tree-node-content-wrapper {
+  color: #000 !important;
+}
+
+.ant-table-thead tr .ant-table-cell {
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #435160;
+}
+
+.ant-table-cell {
+  font-family: PingFang SC-Regular, PingFang SC;
+  font-size: 12px;
+  font-weight: 400;
+  color: #435160;
+}
+.ant-table-row {
+  min-height: 96px !important;
+}
+.ant-btn {
+  min-width: 96px;
+}
+
+/* form */
+.ant-form-item-label {
+  text-align: left !important;
+}
+.ant-form-item-label label:not(.ant-form-item-required) {
+  /* padding-left: 12px; */
+}
+/* .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: '' !important;
+    margin-right: 0px !important;
+} */
+
+/* dataPicker */
+.single-data-picker .ant-picker {
+  padding: 4px 0px 4px 2px !important;
+}
+
+.single-data-picker .ant-picker-input input {
+  font-size: 12px !important;
+}
+
+/* select */
+.ant-select-item-option:hover {
+  background: #f8f7ff !important;
+}
+.ant-select-item-option-active {
+  background: #f8f7ff !important;
+}
+
+/* tag */
+.ant-tag {
+  min-width: 48px !important;
+  height: 24px !important;
+  line-height: 22px !important;
+  border-radius: 4px !important;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 为了一级导航，二级导航和三级导航选中样式的联动，有父子导航联动的激活样式 */
+/* .ant-menu-submenu-selected > .ant-menu-submenu-title{
+  color: #6c57ff;
+}
+.ant-menu-submenu-selected > .ant-menu-title-content{
+  color: #6c57ff;
+} */
+
+.ant-menu-submenu-selected
+  > .ant-menu-submenu-title[aria-haspopup='true']
+  .ant-menu-title-content {
+  color: #6c57ff;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected.ant-menu-item {
+  background-color: #f0f1ff;
+}

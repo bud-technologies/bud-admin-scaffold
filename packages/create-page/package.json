@@ -1,0 +1,17 @@
+{
+    "name": "@bud/create-page",
+    "version": "1.0.0",
+    "description": "创建admin页面的工具",
+    "main": "index.js",
+    "bin": {
+        "create-page": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "link-jc",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.2.1"
+    }
+}

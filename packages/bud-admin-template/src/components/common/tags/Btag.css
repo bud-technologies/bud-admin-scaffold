@@ -1,0 +1,20 @@
+.line-tag {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.full-tag {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 3px 6px;
+  text-align: center;
+  border-radius: 4px;
+  min-width: 56px;
+  font-size: 12px;
+}
+.tag-small-size {
+  height: 20px;
+  padding-top: 0px;
+}
